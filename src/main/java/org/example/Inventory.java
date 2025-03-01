@@ -32,6 +32,6 @@ class Inventory<T> {
                 System.out.println(inventoryItem);
             }
         }
-        System.out.println("=======================");
+        System.out.println("=======================n");
     }
 }
