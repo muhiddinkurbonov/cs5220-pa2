@@ -22,4 +22,16 @@ class Inventory<T> {
             System.out.println("Item not found: " + inventoryItem);
         }
     }
+
+    public void displayInventoryItems() {
+        if(inventoryItems.isEmpty()) {
+            System.out.println("Inventory is empty!");
+        } else {
+            System.out.println("Current inventory:");
+            for(T inventoryItem : inventoryItems) {
+                System.out.println(inventoryItem);
+            }
+        }
+        System.out.println("=======================");
+    }
 }
